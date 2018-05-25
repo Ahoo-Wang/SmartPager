@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartPager", "SmartPager\SmartPager.csproj", "{CF5A7E7B-E1E0-4649-A575-4C4416623826}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D53554BF-8896-4D39-87C0-A60F54574A4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartPager.AspNetCore.Test", "SmartPager.AspNetCore.Test\SmartPager.AspNetCore.Test.csproj", "{44AC0734-339B-441B-A8D5-4947DB94B7FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF5A7E7B-E1E0-4649-A575-4C4416623826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF5A7E7B-E1E0-4649-A575-4C4416623826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF5A7E7B-E1E0-4649-A575-4C4416623826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF5A7E7B-E1E0-4649-A575-4C4416623826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44AC0734-339B-441B-A8D5-4947DB94B7FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44AC0734-339B-441B-A8D5-4947DB94B7FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44AC0734-339B-441B-A8D5-4947DB94B7FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44AC0734-339B-441B-A8D5-4947DB94B7FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{44AC0734-339B-441B-A8D5-4947DB94B7FE} = {D53554BF-8896-4D39-87C0-A60F54574A4A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF1B76CF-112B-4479-878F-B1EC58650DF4}
+	EndGlobalSection
+EndGlobal

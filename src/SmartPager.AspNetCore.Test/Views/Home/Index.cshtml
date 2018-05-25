@@ -1,0 +1,12 @@
+﻿@model IPagedList<int>;
+@{
+    ViewData["Title"] = "Home Page";
+}
+<pager paged-list="Model"  options="new PagerOptions { }" ></pager>
+
+@Html.Pager(Model, new PagerOptions
+{
+    Id = Guid.NewGuid().ToString(),
+    CssClass = "pagination",
+    PageIndexParameterKey = "p",
+})
