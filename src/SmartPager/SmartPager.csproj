@@ -6,8 +6,8 @@
     <Company>Ahoo Wang</Company>
     <Product>SmartPager</Product>
     <Version>1.1.0</Version>
-    <PackageProjectUrl>https://github.com/Ahoo-Wang/SmartSql</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/Ahoo-Wang/SmartSql</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Ahoo-Wang/SmartPager</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Ahoo-Wang/SmartPager</RepositoryUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
